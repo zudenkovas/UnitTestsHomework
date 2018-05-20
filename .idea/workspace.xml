@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b0be8fc3-0ce0-4509-b5d7-7c02d2d9ba3d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Services/MoneyFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/MoneyFormatter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Service/MoneyFormatterTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Service/MoneyFormatterTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/tests/.gitignore" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,7 +35,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MoneyFormatterTest.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MoneyFormatterTest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/Service/MoneyFormatterTest.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="116">
@@ -44,6 +43,15 @@
               <folding>
                 <element signature="e#37#70#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -87,6 +95,7 @@
         <option value="$PROJECT_DIR$/src/Services/NumberFormatter.php" />
         <option value="$PROJECT_DIR$/src/Services/MoneyFormatter.php" />
         <option value="$PROJECT_DIR$/tests/Service/MoneyFormatterTest.php" />
+        <option value="$PROJECT_DIR$/tests/.gitignore" />
       </list>
     </option>
   </component>
@@ -247,12 +256,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1526809409537</updated>
-      <workItem from="1526809410965" duration="14016000" />
+      <workItem from="1526809410965" duration="14216000" />
     </task>
+    <task id="LOCAL-00001" summary="Homework 2">
+      <created>1526823727097</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1526823727097</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14016000" />
+    <option name="totallyTimeSpent" value="14216000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="23" width="1282" height="731" extended-state="6" />
@@ -284,6 +301,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Homework 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework 2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Controller/NumberController.php">
@@ -327,6 +348,13 @@
           <folding>
             <element signature="e#37#70#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
