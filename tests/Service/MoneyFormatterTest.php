@@ -20,7 +20,7 @@ class MoneyFormatterTest extends TestCase
         $moneyFormatter = new MoneyFormatter($numberFormatterMock);
         $result = $moneyFormatter->formatEur($numberFormatterMock);
 
-        //$this->assertEquals('2.84M €', $result);
+        $this->assertEquals('2.84M €', $result);
     }
 
     public function testFormatUsd()
@@ -34,6 +34,6 @@ class MoneyFormatterTest extends TestCase
         $moneyFormatter = new MoneyFormatter($numberFormatterMock);
         $result = $moneyFormatter->formatUsd($numberFormatterMock);
 
-        //$this->assertEquals('$ 2.84M', $result);
+        $this->assertEquals('$ 2.84M', $result);
     }
 }

@@ -43,9 +43,9 @@ class NumberFormatterTest extends TestCase {
      * @param $expected*
      * @dataProvider getConvertData
      */
-    public function testConvert($number, $expected){
-        $converter = new NumberFormatter();
-        $result = $converter->format($number);
+    public function testFormat($number, $expected){
+        $formatter = new NumberFormatter();
+        $result = $formatter->format($number);
         $this->assertEquals($expected, $result);
     }
 }
