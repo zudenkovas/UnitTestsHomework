@@ -27,7 +27,7 @@ class NumberFormatter
         }
 
         if ($absNumber < 99950 and $absNumber >= 1000) {
-            return $sign . number_format($absNumber, 0, '', ' ');
+            return $sign . mb_substr(number_format($absNumber, 0, '', ' '), 0);
 
         }
 
@@ -37,12 +37,11 @@ class NumberFormatter
             $rounded = round($absNumber, 2);
 
 
-            if ($rounded === 1000.00) {
-                return $sign . number_format($rounded, 0, '.', ' ');
+            if ($rounded === 1000.00 or $rounded === -1000.00) {
+                return $sign . mb_substr(number_format($rounded, 0, '.', ' '), 0);
 
             } else {
-                return $sign . number_format($rounded, 2, '.', ' ');
-
+                return $sign . mb_substr(number_format($rounded, 2, '.', ' '), 0);
             }
 
 
